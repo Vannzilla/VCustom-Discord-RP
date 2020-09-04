@@ -1,0 +1,20 @@
+{
+  "name": "vcustom-discord-rp",
+  "version": "0.1.0",
+  "description": "A simple electron app for custom discord rich presence",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Vannzilla",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.2.0"
+  },
+  "dependencies": {
+    "discord-rich-presence": "0.0.8",
+    "discord-rpc": "^3.1.3",
+    "open": "^7.2.1",
+    "ws": "^7.3.1"
+  }
+}

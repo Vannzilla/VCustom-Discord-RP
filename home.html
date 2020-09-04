@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <script src="script.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <meta charset="UTF-8">
+    <title>VCustom Discord RP ~ Main</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+  </head>
+  <body>
+    <h1 id="homeTitle">VCustom Discord RP</h1>
+    <hr>
+    
+    <div style="text-align:center;">
+      <button type="button" onclick="startRP()">Update RP</button>
+      <button type="button" onclick="endRP()">End App/RP</button>
+    </div>
+
+    <p>Welcome to VCustom Discord RP. For help using the app, press <a href="./help.html">here.</a></p>
+    <hr>
+
+    <form>
+      <label id="clientIdLable" for="clientid">Client ID:</label>
+      <input type="text" id="clientid" name="clientid" value=""><br><br>
+    </form>
+    <form>
+      <label id="detailsLabel" for="details">Details:</label>
+      <input type="text" id="details" name="details"><br><br>
+    </form>
+    <form>
+      <label id="stateLable" for="state">State:</label>
+      <input type="text" id="state" name="state"><br><br>
+    </form>
+    <form>
+      <label id="largeimageLabel" for="largeimage">Large Image:</label>
+      <input type="text" id="largeimage" name="largeimage"><br><br>
+    </form>
+    <form>
+      <label id="smallimageLable" for="smallimage">Small Image:</label>
+      <input type="text" id="smallimage" name="smallimage"><br><br>
+    </form>
+
+    <label class="switch">
+      <p id="sttxt">Start Timestamp:</p> <input id="stcb" type="checkbox">
+    </label>
+    
+    <hr>
+
+    <div style="text-align:center;">
+      <button onclick="openGitHubLink()" class="buttonTypeTwo"type="button">GitHub</button>
+      <button onclick="openDiscordLink()" class="buttonTypeTwo" type="button">Discord Server</button>
+    </div>
+  </body>
+</html>
